@@ -1,0 +1,51 @@
+.bg_primary
+ +bg_primary (to bottom,$primary , $secondary)
+
+li
+    padding: 10px 20px
+   
+    a
+        font-family: sans-serif
+        font-size: 18px
+        font-weight: bold
+        color: white!important
+        display: inline-block
+        &:hover
+            color: black!important
+            background-color: white
+            border-radius: 5px
+
+img
+    width: 250px
+    border-radius: 5px
+
+.nav_button
+    
+    padding: 9px 35px
+    margin-left: 150px
+    display: block
+    background-color: $blue
+    border-color:  $blue
+    color: white
+    font-family: sans-serif
+    font-size: 17px
+    font-weight: bold
+    width: 250px
+   
+   
+    &:hover
+        color: black!important
+        background-color: white
+        
+        
+    
+    // MEDIA QUIRIES
+@media (max-width: 1160px)
+    button.btn
+        margin-left: 0
+
+@media (max-width: 1003px)
+    button.btn
+        margin-left: 0
+        width: 100%
+        
