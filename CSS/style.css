@@ -4626,25 +4626,7 @@ div.snow_background {
   font-size: 50px;
   color: #3b5998; }
   .custom_fab:hover {
-    color: black !important;
-    color: white;
-    border-radius: 5px; }
-
-.fas {
-  font-size: 50px;
-  color: #4285F4; }
-  .fas:hover {
-    color: black !important;
-    color: white;
-    border-radius: 5px; }
-
-.number_button {
-  background-image: linear-gradient(to right, #47c4e0ec, #2193b0);
-  border: none;
-  font-family: sans-serif;
-  font-weight: 600;
-  padding: 10px 50px 10px 10px;
-  display: block; }
+    color: white; }
 
 .circle_color {
   position: absolute;
@@ -4661,6 +4643,26 @@ div.snow_background {
     font-size: 20px;
     margin-top: 4px; }
 
+.phone_logo {
+  color: white;
+  margin-top: 6px; }
+
+.number_button {
+  background-color: #3b5998;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 10px 50px 10px 10px;
+  display: block;
+  color: white; }
+  .number_button:hover {
+    background-image: linear-gradient(to right, #9bcfea, #a3d0ec); }
+    .number_button:hover .circle_color {
+      color: white;
+      background-color: white; }
+    .number_button:hover .phone_logo {
+      color: black; }
+
 .carousel-item {
   width: 500px;
   width: 100%; }
@@ -4675,6 +4677,12 @@ div.snow_background {
 .carousel_border {
   border-radius: 10px; }
 
+@media (max-width: 670px) {
+  .col_padding {
+    padding-left: 155px !important; } }
+@media (max-width: 670px) and (max-width: 550px) {
+  .col_padding {
+    padding-left: 80px !important; } }
 .blue_background {
   background-image: linear-gradient(to bottom, #ddd6f3, #faaca8);
   padding: 50px; }

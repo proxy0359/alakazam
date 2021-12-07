@@ -22,26 +22,9 @@ div.snow_background
     color: #3b5998
     
     &:hover
-        color: black!important
-        color: white
-        border-radius: 5px
-
-.fas
-    font-size: 50px
-    color: #4285F4
-    &:hover
-        color: black!important
-        color: white
-        border-radius: 5px
-
-.number_button
-    +bg_primary (to right , $secondary, $primary)  
-    border: none
-    font-family: sans-serif
-    font-weight: 600
-    padding: 10px 50px 10px 10px    
-    display: block
-
+        
+        color: white     
+        
 .circle_color   
     position: absolute
     display: flexbox
@@ -57,6 +40,34 @@ div.snow_background
         margin: auto
         font-size:  20px
         margin-top: 4px
+
+.phone_logo
+    color: white
+    margin-top: 6px
+
+.number_button
+    background-color: #3b5998
+    border: none
+    font-family: sans-serif
+    font-weight: 600
+    padding: 10px 50px 10px 10px   
+    display: block
+    color: white
+    &:hover
+        +bg_primary (to right , #9bcfea, #a3d0ec) 
+        .circle_color
+            color: white
+            background-color: white
+        .phone_logo
+            color: black
+    
+        
+            
+
+
+    
+
+
 
 
 .carousel-item
@@ -76,6 +87,20 @@ div.snow_background
 
 .carousel_border
     border-radius: 10px
+
+
+////////////////////////////////////// MEDIA QUERIES //////////////////////////////////////
+
+@media (max-width: 670px)
+    .col_padding
+        padding-left: 155px!important
+    
+    @media (max-width: 550px)
+        .col_padding
+            padding-left: 80px!important
+            
+
+
         
 
     
