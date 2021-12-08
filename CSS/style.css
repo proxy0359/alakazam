@@ -4683,6 +4683,39 @@ div.snow_background {
 @media (max-width: 670px) and (max-width: 550px) {
   .col_padding {
     padding-left: 80px !important; } }
+.text_center {
+  text-align: center; }
+
+.col_padding {
+  padding-bottom: 7rem; }
+
+.background_image_card {
+  background-image: linear-gradient(to bottom, #91cfea, #A9F1DF); }
+
+.card_item {
+  border: none;
+  box-shadow: 21px 3px 59px 14px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 21px 3px 59px 14px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 21px 3px 59px 14px rgba(0, 0, 0, 0.3);
+  margin-top: 3rem; }
+
+.shop_card {
+  background-image: linear-gradient(to bottom, #A9F1DF, #dad5f2); }
+
+.items {
+  width: 20rem;
+  padding-top: 3rem;
+  padding-left: 3rem; }
+
+.snow_background_shop {
+  padding-bottom: 5rem; }
+
+.shadow_items {
+  box-shadow: -4px 2px 26px 33px rgba(0, 0, 0, 0.46) inset;
+  -webkit-box-shadow: -4px 2px 26px 33px rgba(0, 0, 0, 0.46) inset;
+  -moz-box-shadow: -4px 2px 26px 33px rgba(0, 0, 0, 0.46) inset;
+  border: none; }
+
 .blue_background {
   background-image: linear-gradient(to bottom, #ddd6f3, #faaca8);
   padding: 50px; }
