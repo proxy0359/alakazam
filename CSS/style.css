@@ -4663,6 +4663,9 @@ div.snow_background {
     .number_button:hover .phone_logo {
       color: black; }
 
+.col_padding {
+  padding-bottom: 2rem; }
+
 .carousel-item {
   width: 500px;
   width: 100%; }
@@ -4677,17 +4680,15 @@ div.snow_background {
 .carousel_border {
   border-radius: 10px; }
 
-@media (max-width: 670px) {
-  .col_padding {
-    padding-left: 155px !important; } }
-@media (max-width: 670px) and (max-width: 550px) {
-  .col_padding {
-    padding-left: 80px !important; } }
 .text_center {
+  margin: auto;
   text-align: center; }
 
-.col_padding {
-  padding-bottom: 7rem; }
+.p_padding {
+  padding-bottom: 4rem; }
+
+.col_padding_shop {
+  padding-bottom: 3rem; }
 
 .background_image_card {
   background-image: linear-gradient(to bottom, #91cfea, #A9F1DF); }
@@ -4700,15 +4701,28 @@ div.snow_background {
   margin-top: 3rem; }
 
 .shop_card {
-  background-image: linear-gradient(to bottom, #A9F1DF, #dad5f2); }
+  background-image: linear-gradient(to bottom, #A9F1DF, #dad5f2);
+  border: none;
+  width: 250px; }
 
 .items {
-  width: 20rem;
+  width: 10rem;
   padding-top: 3rem;
   padding-left: 3rem; }
 
+.shop_image {
+  width: 250px;
+  height: 250px; }
+
+.card {
+  margin: auto;
+  display: block; }
+
 .snow_background_shop {
   padding-bottom: 5rem; }
+
+.card-img-top {
+  height: 300px; }
 
 .shadow_items {
   box-shadow: -4px 2px 26px 33px rgba(0, 0, 0, 0.46) inset;
@@ -4716,6 +4730,53 @@ div.snow_background {
   -moz-box-shadow: -4px 2px 26px 33px rgba(0, 0, 0, 0.46) inset;
   border: none; }
 
+.padding_bottom {
+  padding-bottom: 5rem; }
+
+.col_customers_margin {
+  margin-bottom: 8rem; }
+
+.product_item {
+  height: 650px; }
+
+.first_row_customer {
+  padding: 3rem 0 4rem 0; }
+
+.center_row_customer {
+  margin-left: 5px; }
+
+.customers_image {
+  width: 270px;
+  height: 350px;
+  margin: auto;
+  display: block; }
+
+.customers_image_adjust {
+  height: 270px; }
+
+.customers_card {
+  background-image: linear-gradient(to bottom, #A9F1DF, #dad5f2);
+  border: none;
+  width: 280px;
+  padding-top: 5px; }
+
+.customers_card_adjust {
+  height: 460px; }
+
+@media (max-width: 670px) {
+  .customers_image {
+    width: 400px;
+    height: 600px; }
+
+  .customers_image_adjust {
+    height: 400px; }
+
+  .customers_card {
+    width: 430px;
+    padding-top: 15px; }
+
+  .center_row_customer {
+    margin-left: 5px; } }
 .blue_background {
   background-image: linear-gradient(to bottom, #ddd6f3, #faaca8);
   padding: 50px; }
@@ -4723,6 +4784,36 @@ div.snow_background {
     background-image: linear-gradient(to bottom, #ddd6f3, #ffedbc);
     border: none;
     height: 553px; }
+
+.footer_card_background {
+  background-image: linear-gradient(to bottom, #faada9, #2c3e50); }
+
+.customer_card_background {
+  background-image: linear-gradient(to bottom, #dcd6f3, #2c3e50); }
+
+.card_footer_noborder {
+  border: none; }
+
+.footer_image {
+  margin: auto;
+  display: block; }
+
+.margin_bottom {
+  margin-bottom: 7rem; }
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #f8f9fa; }
+
+.no_style {
+  text-decoration: none; }
+
+.footer_hover img:hover {
+  opacity: 0.5; }
+
+.footer_text_hover:hover img {
+  opacity: 0.5; }
 
 .bg_primary {
   background-image: linear-gradient(to bottom, #2193b0, #47c4e0ec); }

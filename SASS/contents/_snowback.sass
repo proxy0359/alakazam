@@ -1,4 +1,4 @@
-
+//////////////////////// index ////////////////////
 div.snow_background
     +bg_primary (to bottom, $secondary, #ddd6f3)
     padding-top: 4rem
@@ -67,7 +67,8 @@ div.snow_background
 
 
     
-
+.col_padding
+    padding-bottom: 2rem
 
 
 
@@ -89,17 +90,12 @@ div.snow_background
 .carousel_border
     border-radius: 10px
 
+///////////////////////// FOOTER //////////////////////////////////
 
-////////////////////////////////////// MEDIA QUERIES //////////////////////////////////////
 
-@media (max-width: 670px)
-    .col_padding
-        padding-left: 155px!important
-    
-    @media (max-width: 550px)
-        .col_padding
-            padding-left: 80px!important
-            
+
+
+
 
 
         
@@ -118,10 +114,12 @@ div.snow_background
 
 /////////////// SHOP PAGE /////////////////////////////
 .text_center 
+    margin: auto
     text-align: center
-    
-.col_padding
-    padding-bottom: 7rem
+.p_padding
+    padding-bottom: 4rem
+.col_padding_shop
+    padding-bottom: 3rem
       
 .background_image_card
     +bg_primary (to bottom, #91cfea,#A9F1DF)
@@ -132,21 +130,76 @@ div.snow_background
     margin-top: 3rem
 .shop_card
     +bg_primary (to bottom, #A9F1DF, #dad5f2)
+    border: none
+    width: 250px
 .items
-    width: 20rem
+    width: 10rem
     padding-top: 3rem
     padding-left: 3rem
 
+.shop_image
+    width: 250px
+    height: 250px
+
+.card
+    margin: auto
+    display: block
+
 .snow_background_shop
     padding-bottom: 5rem
-    
+.card-img-top
+    height: 300px
 .shadow_items
     box-shadow: -4px 2px 26px 33px rgba(0,0,0,0.46) inset
     -webkit-box-shadow: -4px 2px 26px 33px rgba(0,0,0,0.46) inset
     -moz-box-shadow: -4px 2px 26px 33px rgba(0,0,0,0.46) inset
     border: none
+////////////////////////////// CUSTOMERS PAGE STYLE //////////////////////////
+.padding_bottom
+    padding-bottom: 5rem
+.col_customers_margin
+    margin-bottom: 8rem
+.product_item
+    height: 650px
+.first_row_customer
+    padding: 3rem 0 4rem 0 
+    
+.center_row_customer
+    margin-left: 5px
 
+.customers_image
+    width: 270px
+    height: 350px
+    margin: auto
+    display: block
+.customers_image_adjust
+    height: 270px
+    
+.customers_card
+    
+    +bg_primary (to bottom, #A9F1DF, #dad5f2)
+    border: none
+    width: 280px
+    padding-top: 5px
 
+.customers_card_adjust
+    height: 460px
     
 
+    ////////////////////////////////////// MEDIA QUERIES //////////////////////////////////////
+
+
+@media (max-width: 670px )
+    .customers_image
+        width: 400px
+        height: 600px
+    .customers_image_adjust
+        height: 400px
     
+    .customers_card   
+        
+        
+        width: 430px
+        padding-top: 15px
+    .center_row_customer
+        margin-left: 5px
