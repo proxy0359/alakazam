@@ -4763,20 +4763,6 @@ div.snow_background {
 .customers_card_adjust {
   height: 460px; }
 
-@media (max-width: 670px) {
-  .customers_image {
-    width: 400px;
-    height: 600px; }
-
-  .customers_image_adjust {
-    height: 400px; }
-
-  .customers_card {
-    width: 430px;
-    padding-top: 15px; }
-
-  .center_row_customer {
-    margin-left: 5px; } }
 .blue_background {
   background-image: linear-gradient(to bottom, #ddd6f3, #faaca8);
   padding: 50px; }
